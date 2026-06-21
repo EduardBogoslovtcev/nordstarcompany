@@ -8,7 +8,7 @@ import TermsAndConditions from "./pages/TermsAndConditions";
 
 function App() {
     return (
-        <BrowserRouter>
+        <BrowserRouter basename="/nordstarcompany">
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/pricing" element={<PricingPage />} />
